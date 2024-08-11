@@ -6,3 +6,6 @@
 # Specifications:
 - Frequency, f_1, was given from a table: 1600 Hz.
 - Frequency, f_2, was selected to fit the task, while having a significantly different audio output. 
+
+# My solution can be found in
+- [Solution to the task](Arbeider_2.pdf)
