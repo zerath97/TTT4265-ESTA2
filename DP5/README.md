@@ -12,4 +12,4 @@
 - V_{cc} = 9 V
 
 # Solution
-- [The solution](DP5.pdf)
+- [My solution](DP5.pdf)
