@@ -1,7 +1,7 @@
 # The task to be completed is in the file
 - [The Task](Problemstilling.pdf)
 - [Assessment Criterias
-](Vurderingskriterier)
+](Vurderingskriterier_arbeid_2_H21.pdf)
 
 # Specifications:
 - Frequency, f_1, was given from a table: 1600 Hz.
