@@ -1,5 +1,5 @@
 # The problem to be solved
-- Creating a buffer from 
+- Creating a buffer using the [Common collector](https://en.wikipedia.org/wiki/Common_collector) topology
 - [The problem to be solved](Problemstilling.pdf)
 
 # Specifications:
