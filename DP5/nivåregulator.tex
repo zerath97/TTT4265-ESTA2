@@ -1,0 +1,45 @@
+\documentclass[a4paper,11pt,norsk]{article}
+\usepackage{circuitikz}
+\begin{document}
+\begin{figure}[htbp]
+    \centering
+    \begin{circuitikz} [american voltages, european resistors, baseline=(current bounding box.center)]
+        \ctikzset { label/align = straight }
+        \draw (0,2)
+        to [V, l=$V_0$] (0,0);
+        \draw (0,2)
+        % Top-left side
+        to[R=$R_{k}$] (2.5,2)
+        to[short,i=$I$, -o] (4,2)
+        to[short] (4.5,2)
+        (4, 1.6) to [open,v=$v_1$] (4,0.4)
+        % Bottom-left side
+        (0,0) to[short, -o] (4,0)
+        to[short] (4.5,0)
+        % Top-right side
+        (8.5,2) to[short, -o] (9,2)
+        to[short] (11, 2)
+        to[R=$R_L$] (11, 0)
+        (9, 1.6) to [open,v=$v_2$] (9,0.4)
+        % Bottom-right side
+        (11, 0) to[short, -o] (9,0)
+        to[short] (8.5,0)
+        
+        % Kilde text
+        (0,-0.9) node[below] {Kilde}
+        % Last text
+        (11,-0.9) node[below] {Last}
+        ;
+        % Left dashed box
+        \node[draw,dashed,minimum width=3.2cm,minimum height=3.8cm,anchor=south west] at (-0.75,-0.90);
+        % Right dashed box
+        \node[draw,dashed,minimum width=2.5cm,minimum height=3.8cm,anchor=south west] at (10,-0.90);
+        % Nivåregulator
+        \node[draw,minimum width=4cm,minimum height=3.8cm,anchor=south west] at (4.5,-0.90){Nivåregulator};
+
+        
+    \end{circuitikz}
+    \caption{Generelt oppsett av en nivåregulator.}
+  \label{fig:gnRegulator}
+\end{figure}
+\end{document}
