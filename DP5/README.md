@@ -1,6 +1,6 @@
 # The problem to be solved
 - Creating a buffer using the [Common collector](https://en.wikipedia.org/wiki/Common_collector) topology
-- [The problem to be solved](Problemstilling.pdf)
+- [The problem description](Problemstilling.pdf)
 
 # Specifications:
 - R_L = 180 Ohm
