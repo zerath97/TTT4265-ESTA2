@@ -9,3 +9,4 @@
 
 # My solution can be found in
 - [Solution to the task](Arbeider_2.pdf)
+- [Plotting the csv files](Arbeider_2.py)
