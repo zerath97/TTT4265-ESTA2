@@ -1,4 +1,5 @@
 # The problem to be solved
+- Creating a buffer from 
 - [The problem to be solved](Problemstilling.pdf)
 
 # Specifications:
